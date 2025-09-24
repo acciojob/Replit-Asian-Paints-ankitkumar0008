@@ -13,7 +13,7 @@ changebutton.addEventListener("click",()=>{
 	getcell.style.backgroundColor = color;
 })
 
-let resetbutton = document.getElementById("Reset");
+let resetbutton = document.getElementById("reset_button");
 
 resetbutton.addEventListener("click",()=>{
 	items.forEach((cell)=>{
